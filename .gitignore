@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data & generated outputs (keep the folders, not big files)
+data/*
+!data/.gitkeep
+*.html
+workspace/
+mlruns/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
